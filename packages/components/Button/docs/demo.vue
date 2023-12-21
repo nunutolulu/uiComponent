@@ -10,12 +10,21 @@
     <br />
     <br />
 
-    <div>
+    <!-- <div>
         <my-button type="primary" plain>朴素按钮</my-button>
         <my-button type="success" plain>成功按钮</my-button>
         <my-button type="info" plain>信息按钮</my-button>
         <my-button type="warning" plain>警告按钮</my-button>
         <my-button type="danger" plain>危险按钮</my-button>
+    </div>
+    <br />
+    <br /> -->
+    <div>
+        <my-button type="primary" circle>圆形按钮</my-button>
+        <my-button type="success" circle>成功按钮</my-button>
+        <my-button type="info" circle>信息按钮</my-button>
+        <my-button type="warning" circle>警告按钮</my-button>
+        <my-button type="danger" circle>危险按钮</my-button>
     </div>
     <br />
     <br />
@@ -29,12 +38,10 @@
     </div>
     <br />
     <br />
-
 </template>
 
 <style scoped>
 div+div {
     margin-top: 12px;
 }
-
 </style>

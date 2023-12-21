@@ -5,7 +5,6 @@
     </aside>
     <main>
       <router-view></router-view>
-      <!-- <my-button></my-button> -->
     </main>
   </div>
 </template>
