@@ -3,4 +3,9 @@ import App from "./App.vue";
 import router from "./router";
 import MyKit from "../packages";
 
-createApp(App).use(MyKit).use(router).mount("#app");
+import Preview from "./components/Preview.vue";
+
+const app = createApp(App);
+app.component("Preview", Preview);
+app.use(router).use(MyKit);
+app.mount("#app");

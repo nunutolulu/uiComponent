@@ -11,17 +11,21 @@ import size from './size.vue'
 # 基础用法
 
 使用type、plain、round和circle来定义按钮的样式。
-
-<demo />
+<Preview comp-Name='Button' demo-name='demo'>
+    <demo/>
+</Preview>
 
 # 禁用状态
 
 禁用按钮。
+<Preview comp-Name='Button' demo-name='disabled-demo'>
+    <disabled-demo />
+</Preview>
 
-<disabled-demo />
 
 # 调整尺寸
 
 使用size调整大小。
-
-<size />
+<Preview comp-Name='Button' demo-name='size'>
+    <size />
+</Preview>
