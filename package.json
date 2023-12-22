@@ -11,12 +11,13 @@
     "lint:prettier": "prettier --writer **/*.{js,json,tsx,css,less,scss,vue,html,md}",
     "prepare": "husky install",
     "lint:lint-staged": "lint-staged",
-    "docs:dev":"vitepress dev docs",
-    "docs:build":"vitepress build docs",
-    "docs:preview":"vitepress preview docs",
-    "gen":"node ./scripts/genNewComp/index.js"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "gen": "node ./scripts/genNewComp/index.js"
   },
   "dependencies": {
+    "less-loader": "^11.1.3",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

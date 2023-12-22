@@ -1,0 +1,87 @@
+@my-color-primary: #409eff;
+@my-color-success: #67c23a;
+@my-color-warning: #e6a23c;
+@my-color-danger: #f56c6c;
+@my-color-info: #909399;
+@my-primary-text: #303133;
+@my-placeholder-text: #a8abb2;
+@my-disabled-text: #c0c4cc;
+@my-border: #dcdfe6;
+@my-fill: #f0f2f5;
+@my-page-background: #f2f3f5;
+
+// yt代表什么
+@yt-primary-color: skyblue;
+@yt-minor-color: #61ecd9;
+@yt-safe-color: green;
+@yt-danger-color: red;
+@yt-off-color: #f5f5f5;
+
+@yt-primary-color-light-1: #73f2c7;
+@yt-primary-color-light-2: #8ef7b1;
+@yt-primary-color-light-3: #affa99;
+@yt-primary-color-light-4: #00d2e8;
+@yt-primary-color-light-5: #d3fa83;
+@yt-primary-color-light-6: #f9f871;
+@yt-primary-color-light-7: #00b3f0;
+
+:root {
+  // theme color
+  --my-color-primary: #409eff;
+  --my-color-success: #67c23a;
+  --my-color-warning: #e6a23c;
+  --my-color-danger: #f56c6c;
+  --my-color-info: #909399;
+  --yt-primary-color: skyblue;
+  --yt-minor-color: #61ecd9;
+  --yt-safe-color: green;
+  --yt-danger-color: red;
+  --yt-off-color: #f5f5f5;
+
+  --yt-primary-color-light-1: #73f2c7;
+  --yt-primary-color-light-2: #8ef7b1;
+  --yt-primary-color-light-3: #affa99;
+  --yt-primary-color-light-4: #00d2e8;
+  --yt-primary-color-light-5: #d3fa83;
+  --yt-primary-color-light-6: #f9f871;
+  --yt-primary-color-light-7: #00b3f0;
+  // text color
+  --my-color-primary-text: #303133;
+  --my-color-placeholder-text: #a8abb2;
+  --my-color-disabled-text: #c0c4cc;
+  --my-color-border: #dcdfe6;
+  --my-color-fill: #f0f2f5;
+  --my-color-page-background: #f2f3f5;
+  // size
+  --my-font-size: 14px;
+  --my-border-radius-base: 4px;
+  --my-border-radius-round: 20px;
+  --my-border-radius-circle: 50%;
+
+  box-sizing: border-box;
+}
+
+#theme-colors() {
+  primary: #409eff;
+  success: #67c23a;
+  warning: #e6a23c;
+  danger: #f56c6c;
+  info: #909399;
+}
+
+#common-colors() {
+  primary-text: #303133;
+  placeholder-text: #a8abb2;
+  disabled-text: #c0c4cc;
+  border: #dcdfe6;
+  fill: #f0f2f5;
+  page-background: #f2f3f5;
+}
+
+.round {
+  border-radius: var(--my-border-radius-round);
+}
+
+.circle {
+  border-radius: 50%;
+}

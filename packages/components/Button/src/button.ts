@@ -78,7 +78,7 @@ export const useButtonStyle = (props: ButtonProps) => {
     }
   } else if (props.type) {
     styles = ns.setStyles({
-      'bg-color': `var(--y-color-${props.type})`,
+      'bg-color': `var(--my-color-${props.type})`,
       'text-color': '#fff',
       'hover-bg-color': `${colorBlend(colors[props.type], '#ffffff', 0.3)}`
     })
