@@ -6,7 +6,31 @@ const routes = [
     name: "Button",
     path: "/components/Button",
     component: () => import(`/packages/components/Button/docs/README.md`),
-  }
+  },
+  {
+    title: "Layout",
+    name: "Layout",
+    path: "/components/Layout",
+    component: () => import(`/packages/components/Layout/docs/README.md`),
+  },
+  {
+    title: "Icon",
+    name: "Icon",
+    path: "/components/Icon",
+    component: () => import(`/packages/components/Icon/docs/README.md`),
+  },
+  {
+    title: "Avatar",
+    name: "Avatar",
+    path: "/components/Avatar",
+    component: () => import(`/packages/components/Avatar/docs/README.md`),
+  },
+  {
+    title: "Backtop",
+    name: "Backtop",
+    path: "/components/Backtop",
+    component: () => import(`/packages/components/Backtop/docs/README.md`),
+  },
 ];
 const routerConfig = {
   history: createWebHashHistory(),

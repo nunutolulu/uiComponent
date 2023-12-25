@@ -1,51 +1,50 @@
 [
-    {
-      "compName": "Button",
-      "compZhName": "按钮",
-      "compDesc": "这是一个按钮",
-      "compClassName": "button"
-    },
-    {
-      "compName": "Layout",
-      "compZhName": "布局",
-      "compDesc": "这是一个布局",
-      "compClassName": "layout"
-    },
-    {
-      "compName": "Icon",
-      "compZhName": "图标",
-      "compDesc": "这是一个图标",
-      "compClassName": "icon"
-    },
-    {
-      "compName": "Container",
-      "compZhName": "盒子",
-      "compDesc": "这是一个盒子",
-      "compClassName": "container"
-    },
-    {
-      "compName": "Switch",
-      "compZhName": "Switch",
-      "compDesc": "这是一个布局",
-      "compClassName": "swtich"
-    },
-    {
-      "compName": "Progress",
-      "compZhName": "Progress",
-      "compDesc": "这是一个布局",
-      "compClassName": "progress"
-    },
-    {
-      "compName": "Avatar",
-      "compZhName": "Avatar",
-      "compDesc": "这是一个布局",
-      "compClassName": "avatar"
-    },
-    {
-      "compName": "List",
-      "compZhName": "List",
-      "compDesc": "这是一个布局",
-      "compClassName": "list"
-    }
-  ]
-  
+  {
+    "compName": "Button",
+    "compZhName": "按钮",
+    "compDesc": "这是一个按钮",
+    "compClassName": "button"
+  },
+  {
+    "compName": "Layout",
+    "compZhName": "布局",
+    "compDesc": "这是一个布局",
+    "compClassName": "layout"
+  },
+  {
+    "compName": "Icon",
+    "compZhName": "图标",
+    "compDesc": "这是一个图标",
+    "compClassName": "icon"
+  },
+  {
+    "compName": "Container",
+    "compZhName": "盒子",
+    "compDesc": "这是一个盒子",
+    "compClassName": "container"
+  },
+  {
+    "compName": "Switch",
+    "compZhName": "Switch",
+    "compDesc": "这是一个布局",
+    "compClassName": "swtich"
+  },
+  {
+    "compName": "Progress",
+    "compZhName": "Progress",
+    "compDesc": "这是一个布局",
+    "compClassName": "progress"
+  },
+  {
+    "compName": "Avatar",
+    "compZhName": "Avatar",
+    "compDesc": "这是一个布局",
+    "compClassName": "avatar"
+  },
+  {
+    "compName": "List",
+    "compZhName": "List",
+    "compDesc": "这是一个布局",
+    "compClassName": "list"
+  }
+]
