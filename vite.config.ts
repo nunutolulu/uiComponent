@@ -36,5 +36,10 @@ export default defineConfig({
     name:'luluUI',
     filename:"luluUI",
     formats:["es","umd","cjs"]
-  }
+  },
+  server: {
+    host: '0.0.0.0',
+    port: 8080,
+    open: false
+  },
 });

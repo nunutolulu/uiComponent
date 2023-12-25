@@ -1,15 +1,13 @@
 <template>
-  <div :style="styles">
+  <div class="my-col" :style="styles">
     <slot></slot>
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script lang="ts" setup>
+import myCol from './col'
 </script>
 
 <style>
-
+@import '../../../styles/layout/col.less';
 </style>
