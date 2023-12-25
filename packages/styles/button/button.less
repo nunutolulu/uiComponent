@@ -1,6 +1,5 @@
 // 设置变量
-@import '../theme/theme.less';
-
+@import "../theme/theme.less";
 
 .my-button {
   box-sizing: content-box;
@@ -13,7 +12,7 @@
   --my-button-bg-color: #fff;
   --my-button-text-color: var(--my-color-primary-text);
   color: var(--my-button-text-color);
-  background-color: var(--my-button-bg-color);   // 这个地方的background-color没有显色
+  background-color: var(--my-button-bg-color);
   // font
   font-size: var(--my-font-size);
   font-weight: 500;
@@ -47,10 +46,10 @@
       background-image: none;
     }
   }
-  .my-button--large {
-    padding: 12px 20px;
-  }
-  .my-button--small {
-    padding: 4px 12px;
-  }
+}
+.my-button--large {
+  padding: 12px 24px;
+}
+.my-button--small {
+  padding: 6px 12px;
 }

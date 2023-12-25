@@ -59,7 +59,7 @@ export const colorBlend = (c1: string, c2: string, ratio: number) => {
   return '#' + r + g + b
 }
 
-// --y-button-bg-color
+// --my-button-bg-color
 export const useButtonStyle = (props: ButtonProps) => {
   let styles: Record<string, string> = {}
   const ns = useNamespace('button')

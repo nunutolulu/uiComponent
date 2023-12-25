@@ -1,4 +1,3 @@
-<!-- 交互式预览实例 -->
 <template>
     <div>
         <my-button type="primary">主要按钮</my-button>

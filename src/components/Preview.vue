@@ -85,7 +85,7 @@ pre {
 }
 
 .source-code {
-  max-height: 500px;
+  max-height: 1000px;
 }
 .language-html {
   margin: 0;
