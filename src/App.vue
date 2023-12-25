@@ -1,7 +1,7 @@
 <template>
   <div class="my-kit-doc">
     <aside>
-      <router-link v-for="(link, index) in data.links" :key="index" :to="link.path">{{ link.name }}</router-link>
+      <router-link v-for="(link, index) in data.links" :key="index" :to="link.path">{{ link.name }}<br><br></router-link>
     </aside>
     <main>
       <router-view></router-view>

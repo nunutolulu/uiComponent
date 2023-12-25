@@ -1,13 +1,16 @@
-import { App, Plugin } from 'vue';
+import { App, Plugin } from "vue";
 
-import { ButtonPlugin } from './components/Button';
+import { ButtonPlugin } from "./components/Button";
+import { LayoutPlugin } from "./components/Layout";
 
-const MyKitPlugin: Plugin = {
+const LuluUIPlugin: Plugin = {
   install(app: App) {
     ButtonPlugin.install?.(app);
+    LayoutPlugin.install?.(app);
   },
 };
 
-export default MyKitPlugin;
+export default LuluUIPlugin;
 
-export * from './components/Button';
+export * from "./components/Button";
+export * from "./components/Layout";
