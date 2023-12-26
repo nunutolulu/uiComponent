@@ -1,16 +1,19 @@
-@import '../theme/theme.less';
-.my-row {
+@import "../theme/theme.less";
+// @import 'packages/styles/theme/theme';
+.row-flex-container {
+  width: 100%;
   display: flex;
+  justify-content: start;
+  align-items: center;
   flex-wrap: wrap;
-  &.align-left {
-    justify-content: flex-start;
-  }
-  &.align-right {
-    justify-content: flex-end;
-  }
-  &.align-center {
-    justify-content: center;
-  }
-  background-color: blueviolet;
+  box-sizing: border-box;
 }
 
+.row-grid-container {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+}
+
+.row-bg {
+  background-color: @yt-off-color;
+}

@@ -1615,6 +1615,11 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.npmmirror.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
+classnames@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.npmmirror.com/classnames/-/classnames-2.3.3.tgz"
+  integrity sha512-1inzZmicIFcmUya7PGtUQeXtcF7zZpPnxtQoYOrz0uiOBGlLFa4ik4361seYL2JCcRDIyfdFHiwQolESFlw+Og==
+
 cli-cursor@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmmirror.com/cli-cursor/-/cli-cursor-3.1.0.tgz"
