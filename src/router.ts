@@ -20,6 +20,12 @@ const routes = [
     component: () => import(`/packages/components/Icon/docs/README.md`),
   },
   {
+    title: "Container",
+    name: "Container",
+    path: "/components/Container",
+    component: () => import(`/packages/components/Container/docs/README.md`),
+  },
+  {
     title: "Avatar",
     name: "Avatar",
     path: "/components/Avatar",

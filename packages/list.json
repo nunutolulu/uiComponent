@@ -19,7 +19,7 @@
   },
   {
     "compName": "Container",
-    "compZhName": "盒子",
+    "compZhName": "Container",
     "compDesc": "这是一个盒子",
     "compClassName": "container"
   },
